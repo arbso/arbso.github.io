@@ -1,1 +1,36 @@
-<h1>test</h1>
+<html>
+<head></head>
+<body>
+
+<div id="as">
+    <img class="bottom" height="200px" width="200px" style="float: left;" src="https://i.imgur.com/sQ6xXad.png" />
+  <img class="top" height="200px" width="200px" style="float: left;" src="https://i.imgur.com/UeCwFhv.png" />
+</div>
+
+<style>
+#as {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#as img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#as img.top:hover {
+  opacity:0;
+}
+
+/*body{
+  background-color: #f0db4f;
+}
+</style>
+</body>
+</html>
